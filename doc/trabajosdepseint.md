@@ -32,3 +32,22 @@ Algoritmo departamentos
 		FinSi
 	FinSi
 FinAlgoritmo
+
+## ejercicio 2
+Algoritmo comision1
+	Escribir "ingrese la cantidad de articulos de ventas (N)"
+	leer N
+	
+	comisiontotal=0
+	Para i = 1 hasta N con paso 1 Hacer
+		Escribir "ingrese el monto de venta, " i ""
+		leer venta
+		Si Venta > 50000 Entonces
+            ComisionTotal = ComisionTotal + (Venta * 0.07)
+        Sino
+			ComisionTotal = ComisionTotal + (venta * 0.05)
+		FinSi
+		Escribir "la comision total obtenida por el vendedor es: ", ComisionTotal
+	FinPara
+FinAlgoritmo
+
