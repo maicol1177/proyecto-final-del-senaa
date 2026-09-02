@@ -28,3 +28,16 @@ Algoritmo TablaMultiplicar
         Escribir num, " x ", i, " = ", resultado
     FinPara
 FinAlgoritmo
+
+### tercer ejercicio
+
+Algoritmo ParidadNumeros
+    Definir nro Como Entero
+    Escribir "Ingrese un número entero:"
+    Leer nro
+    Si (nro MOD 2) = 0 Entonces
+        Escribir "El número es par"
+    Sino
+        Escribir "El número es impar"
+    FinSi
+FinAlgoritmo
