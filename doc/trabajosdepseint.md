@@ -1,0 +1,34 @@
+## ejercicio 1
+Algoritmo departamentos
+	Definir dep, mayoresDep, menoresDep Como Entero
+	Definir totalMayores, totalMenores, totalPersonas Como Entero
+	
+	totalMayores <- 0
+	totalMenores <- 0
+	
+	Para dep <- 1 Hasta 10 Con Paso 1 Hacer
+		Escribir "--- Departamento ", dep, " ---"
+		Escribir "Ingrese cantidad de personas mayores de edad (0 si está desocupado):"
+		Leer mayoresDep
+		
+		Escribir "Ingrese cantidad de personas menores de edad (0 si está desocupado):"
+		Leer menoresDep
+		
+		totalMayores <- totalMayores + mayoresDep
+		totalMenores <- totalMenores + menoresDep
+		
+	FinPara
+	totalPersonas <- totalMayores + totalMenores
+	Escribir "--------------------------------------"
+	Escribir "En el edificio viven ", totalPersonas, " personas."
+	
+	Si totalMayores > totalMenores Entonces
+		Escribir "Viven más personas mayores y son ", totalMayores
+	Sino
+		Si totalMenores > totalMayores Entonces
+			Escribir "Viven más personas menores y son ", totalMenores
+		Sino
+			Escribir "Hay la misma cantidad de personas mayores y menores (", totalMayores, " de cada una)."
+		FinSi
+	FinSi
+FinAlgoritmo
