@@ -51,3 +51,26 @@ Algoritmo comision1
 	FinPara
 FinAlgoritmo
 
+## ejercicio 3
+Algoritmo preciomayor 
+	Definir N, i Como Entero
+	Definir precio, mayor Como Real
+	
+	Escribir "Ingrese la cantidad de artículos (N):"
+	Leer N
+	
+	Si N <= 0 Entonces
+		Escribir "La cantidad de artículos debe ser mayor a 0."
+	Sino
+		Para i <- 1 Hasta N Con Paso 1 Hacer
+			Escribir "Ingrese el precio del artículo ", i, ":"
+			Leer precio
+			
+			Si i = 1 O precio > mayor Entonces
+				mayor <- precio
+			FinSi
+		FinPara
+		
+		Escribir "El precio del artículo de mayor valor es: ", mayor
+	FinSi
+FinAlgoritmo
