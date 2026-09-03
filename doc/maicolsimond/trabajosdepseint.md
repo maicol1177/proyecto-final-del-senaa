@@ -73,4 +73,4 @@ Algoritmo preciomayor
 		
 		Escribir "El precio del artículo de mayor valor es: ", mayor
 	FinSi
-FinAlgoritmo
+FinAlgoritmo.
