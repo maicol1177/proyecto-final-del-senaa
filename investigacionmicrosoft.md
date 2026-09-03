@@ -79,3 +79,63 @@ Quiere que la IA esté dentro de:
 Word + Excel + PowerPoint + Teams + Outlook + Dynamics + GitHub + Azure + Windows
 
 Eso es estratégicamente potentísimo porque Microsoft ya tiene acceso a millones de flujos de trabajo empresariales.
+
+
+## Microsoft Copilot
+Microsoft Copilot es la familia de asistentes de IA de Microsoft.
+
+Pero hay que diferenciar productos.
+
+Por ejemplo:
+
+Copilot para consumidores
+Puede utilizarse para:
+
+- Preguntas.
+- Escritura.
+- Investigación.
+- Generación de contenido.
+- Imágenes.
+- Resúmenes.
+- Asistencia general.
+
+## Microsoft 365 Copilot
+Está orientado al trabajo.
+
+Puede trabajar con información y aplicaciones del entorno empresarial para ayudar con:
+
+- Word
+- Excel
+- PowerPoint
+- Outlook
+- Teams
+- búsqueda empresarial
+- análisis
+- creación de contenido
+- automatización
+Microsoft lo posiciona como una IA integrada en el flujo de trabajo empresarial y también está desarrollando capacidades basadas en agentes. 
+M
+Microsoft
+
+Copilot Studio
+Es todavía más interesante desde el punto de vista empresarial.
+
+Permite que las organizaciones creen y personalicen agentes de IA.
+
+La visión estratégica está evolucionando de:
+
+"IA que responde preguntas"
+
+hacia:
+
+"IA que ejecuta procesos."
+
+Por ejemplo:
+
+Un empleado dice:
+
+"Analiza estos clientes y prepara las cinco oportunidades comerciales más importantes."
+
+Un agente podría consultar datos, analizarlos, preparar un informe y eventualmente iniciar acciones dentro de los sistemas autorizados.
+
+Ese cambio —de chatbot a agente— es una de las grandes apuestas estratégicas actuales de Microsoft.
