@@ -43,3 +43,39 @@ Imagina una empresa que coloca en Azure:
 datos → aplicaciones → IA → seguridad → análisis → sistemas internos
 
 Una vez que toda esa arquitectura está integrada, Azure deja de ser simplemente "un servidor". Se convierte en parte de la infraestructura crítica de la compañía.
+
+
+## IA: la nueva batalla central
+Aquí está probablemente la transformación más importante de Microsoft.
+
+Microsoft está intentando convertirse en una de las plataformas principales para desarrollar, desplegar y utilizar IA a escala empresarial.
+
+Su estrategia de IA no consiste únicamente en tener un chatbot.
+
+Microsoft está construyendo una cadena completa:
+
+chips → centros de datos → Azure → modelos de IA → datos → herramientas para desarrolladores → aplicaciones → agentes → seguridad
+
+Dentro de esta estrategia aparecen tecnologías como:
+
+- Microsoft Copilot
+- Microsoft 365 Copilot
+- Azure AI
+- Microsoft Foundry
+- Copilot Studio
+- GitHub Copilot
+- Microsoft Fabric
+- herramientas de IA para empresas
+- servicios relacionados con modelos de IA
+- Microsoft describe actualmente su estrategia empresarial de IA alrededor de conceptos como Copilot, agentes, Foundry, Fabric, seguridad y Azure. 
+
+Y hay algo muy importante:
+
+Microsoft quiere que la IA esté dentro del trabajo cotidiano.
+No necesariamente quiere que una persona abra "una página de IA" separada.
+
+Quiere que la IA esté dentro de:
+
+Word + Excel + PowerPoint + Teams + Outlook + Dynamics + GitHub + Azure + Windows
+
+Eso es estratégicamente potentísimo porque Microsoft ya tiene acceso a millones de flujos de trabajo empresariales.
