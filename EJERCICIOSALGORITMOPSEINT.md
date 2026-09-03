@@ -15,6 +15,14 @@ Algoritmo areadecincunferencia
 	resultado2 = ( - b - r ) / 2 * a 
 	Escribir " el resultado es: " resultado 
 	Escribir " el resultado es : " resultado2
-	
+	Finalgoritmo
+
+	### segundo ejercicio
+    
+Algoritmo sin_titulo
+	Escribir " area del cadro"
+	leer lado 
+	area = lado * 4 
+	Escribir " area del cuadrado es :" area 
 	
 FinAlgoritmo
