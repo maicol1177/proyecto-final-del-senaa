@@ -36,4 +36,4 @@ Sintaxis:
 Code snippet
 Para variable <- inicio Hasta fin Con Paso paso Hacer
     // Instrucciones a repetir
-FinPara
+FinPara.
