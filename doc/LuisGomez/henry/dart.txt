@@ -1,0 +1,5 @@
+void main () {
+  String a = "18";
+  print ( "Soy  luis gomez y tengo "  +  a  + " años ");
+}
+     
