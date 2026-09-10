@@ -52,7 +52,7 @@ Algoritmo comision1
 FinAlgoritmo
 
 ## ejercicio 3
-Algoritmo preciomayor 
+Algoritmo preciomayor.
 	Definir N, i Como Entero
 	Definir precio, mayor Como Real
 	
