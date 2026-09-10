@@ -1,0 +1,7 @@
+Sub prueba()
+
+
+s = (" 18 ")
+
+MsgBox ("Luis tiene " & s & " años")
+End Sub
