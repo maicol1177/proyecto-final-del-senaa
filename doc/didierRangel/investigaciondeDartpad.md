@@ -32,3 +32,42 @@ DartPad se utiliza principalmente para:
 void main() {
   print('Hola, mundo');
 }
+
+
+## Uso de DartPad
+
+DartPad se utiliza para **escribir, ejecutar y probar código Dart y Flutter directamente desde un navegador web**, sin necesidad de instalar un entorno de desarrollo completo.
+
+Sus principales usos son:
+
+- Aprender el lenguaje de programación Dart.
+- Practicar conceptos básicos de programación.
+- Ejecutar y probar códigos pequeños.
+- Identificar y corregir errores.
+- Crear ejemplos de aplicaciones con Flutter.
+- Realizar ejercicios y demostraciones educativas.
+- Compartir código con otras personas.
+
+## Modalidad de DartPad
+
+DartPad funciona bajo una **modalidad en línea**, es decir, el código se escribe y ejecuta directamente desde un navegador.
+
+Cuenta principalmente con dos modalidades:
+
+### Modalidad Dart
+
+Permite escribir y ejecutar programas utilizando el lenguaje **Dart**. Es ideal para aprender variables, funciones, ciclos, condicionales, clases y otros conceptos de programación.
+
+### Modalidad Flutter
+
+Permite crear y probar **interfaces gráficas y aplicaciones** utilizando Flutter. Es útil para aprender desarrollo de aplicaciones móviles y web.
+
+### En resumen
+
+| Aspecto | Descripción |
+|---|---|
+| **Uso** | Escribir, ejecutar y probar código Dart y Flutter. |
+| **Modalidad** | Entorno de programación en línea. |
+| **Dart** | Programación y aprendizaje del lenguaje Dart. |
+| **Flutter** | Creación de interfaces y aplicaciones. |
+| **Acceso** | Desde un navegador web. |
