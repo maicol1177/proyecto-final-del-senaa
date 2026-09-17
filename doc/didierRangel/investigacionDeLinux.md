@@ -45,3 +45,19 @@ Existen numerosas distribuciones, cada una orientada a diferentes necesidades. A
 - **Arch Linux:** proporciona un sistema altamente personalizable y sigue un enfoque minimalista.
 
 - **openSUSE:** utilizada tanto en computadoras personales como en determinados entornos profesionales.
+
+## ¿Donde se utiliza Linux?
+
+Linux tiene una presencia muy amplia en la tecnología moderna. Se utiliza en:
+
+- **Servidores web:** muchos servidores de Internet utilizan sistemas basados en Linux.
+
+- **Computación en la nube:** es una plataforma importante para infraestructuras de servicios en la nube.
+
+- **Supercomputadoras:** Linux se utiliza ampliamente en sistemas de computación de alto rendimiento.
+
+- **Dispositivos móviles:** Android utiliza el kernel Linux como parte fundamental de su arquitectura.
+
+- **Sistemas embebidos:** está presente en routers, televisores inteligentes, automóviles y otros dispositivos.
+
+- **Computadoras personales:** distribuciones como Ubuntu, Fedora y Linux Mint pueden utilizarse como sistemas operativos de escritorio.
