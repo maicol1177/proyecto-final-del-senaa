@@ -71,3 +71,7 @@ Linux tiene una presencia muy amplia en la tecnología moderna. Se utiliza en:
 | Buen sistema de permisos y seguridad | Puede requerir aprender comandos de terminal |
 | Puede funcionar en diferentes equipos | La compatibilidad de algunos periféricos puede variar |
 | Amplia comunidad de usuarios y desarrolladores | La variedad de distribuciones puede resultar confusa |
+
+## Importancia de Linux
+
+Linux es importante porque constituye una parte fundamental de numerosas infraestructuras informáticas. Su modelo de desarrollo abierto permite que empresas, instituciones y desarrolladores colaboren en su evolución. Además, su flexibilidad ha permitido adaptarlo desde pequeños dispositivos hasta grandes sistemas de servidores y supercomputadoras.
