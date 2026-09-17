@@ -61,3 +61,13 @@ Linux tiene una presencia muy amplia en la tecnología moderna. Se utiliza en:
 - **Sistemas embebidos:** está presente en routers, televisores inteligentes, automóviles y otros dispositivos.
 
 - **Computadoras personales:** distribuciones como Ubuntu, Fedora y Linux Mint pueden utilizarse como sistemas operativos de escritorio.
+
+## Ventajas y desventajas
+
+| Ventajas | Desventajas |
+|---|---|
+| Es de código abierto | Algunos programas comerciales no tienen versión para Linux |
+| Gran capacidad de personalización | Algunas configuraciones pueden ser complejas |
+| Buen sistema de permisos y seguridad | Puede requerir aprender comandos de terminal |
+| Puede funcionar en diferentes equipos | La compatibilidad de algunos periféricos puede variar |
+| Amplia comunidad de usuarios y desarrolladores | La variedad de distribuciones puede resultar confusa |
