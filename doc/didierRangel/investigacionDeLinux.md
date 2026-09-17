@@ -75,3 +75,7 @@ Linux tiene una presencia muy amplia en la tecnología moderna. Se utiliza en:
 ## Importancia de Linux
 
 Linux es importante porque constituye una parte fundamental de numerosas infraestructuras informáticas. Su modelo de desarrollo abierto permite que empresas, instituciones y desarrolladores colaboren en su evolución. Además, su flexibilidad ha permitido adaptarlo desde pequeños dispositivos hasta grandes sistemas de servidores y supercomputadoras.
+
+## Conclusión
+
+Linux es una tecnología fundamental dentro de la informática moderna. Aunque comenzó como un proyecto personal en 1991, evolucionó gracias a la colaboración de una comunidad internacional de desarrolladores. Su código abierto, flexibilidad, seguridad y capacidad de adaptación han permitido que se utilice en una enorme variedad de sistemas. Por estas razones, conocer Linux resulta especialmente útil para estudiantes y profesionales interesados en informática, programación, redes y administración de sistemas.
