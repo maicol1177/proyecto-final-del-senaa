@@ -29,3 +29,19 @@ Entre las características más importantes de Linux se encuentran:
 - **Personalización:** permite modificar numerosos componentes del sistema.
 
 - **Portabilidad:** el kernel Linux funciona en una gran variedad de arquitecturas y dispositivos.
+
+## Distribuciones de Linux
+
+Existen numerosas distribuciones, cada una orientada a diferentes necesidades. Algunas conocidas son:
+
+- **Ubuntu:** orientada tanto a usuarios particulares como a entornos profesionales y servidores.
+
+- **Debian:** conocida por su enfoque en estabilidad y por servir como base de otras distribuciones.
+
+- **Fedora:** incorpora tecnologías relativamente recientes y está relacionada con el ecosistema de Red Hat.
+
+- **Linux Mint:** diseñada para ofrecer una experiencia sencilla para usuarios de escritorio.
+
+- **Arch Linux:** proporciona un sistema altamente personalizable y sigue un enfoque minimalista.
+
+- **openSUSE:** utilizada tanto en computadoras personales como en determinados entornos profesionales.
