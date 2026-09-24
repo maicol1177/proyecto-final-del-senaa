@@ -37,3 +37,20 @@ print(n5);
 double promedio = (n1 + n2 + n3 + n4 + n5) / 5;
 print("el promedio es: $promedio");
 }
+
+## Ejercicio de visual basic
+
+Sub PromedioNotas()
+    Dim n1 As Double, n2 As Double, n3 As Double, n4 As Double, n5 As Double
+    Dim promedio As Double
+
+    n1 = CDbl(InputBox("Ingrese la nota 1:"))
+    n2 = CDbl(InputBox("Ingrese la nota 2:"))
+    n3 = CDbl(InputBox("Ingrese la nota 3:"))
+    n4 = CDbl(InputBox("Ingrese la nota 4:"))
+    n5 = CDbl(InputBox("Ingrese la nota 5:"))
+
+    promedio = (n1 + n2 + n3 + n4 + n5) / 5
+
+    MsgBox "El promedio es: " & promedio
+End Sub
