@@ -1,10 +1,3 @@
-# Especificación de Requisitos de Software (SRS) – Licores Connect
-
-**Proyecto productivo SENA** · Programa ADSO · Ficha 3532730 · Convenio UAC – SENA No. 05[cite: 1]  
-**Equipo:** Didier Rangel, Alfred Castro, Samuel Sequeda, Maicol Simond y Luis Gomez · **Instructor:** Zajedis · **Versión:** 1.0 · **Fecha:** 18 de noviembre de 2026[cite: 1]
-
----
-
 ## 1. Introducción
 
 ### 1.1 Propósito
@@ -165,4 +158,158 @@ Licores Connect es un producto independiente, accesible desde cualquier navegado
 
 | ID | Requisito | Prioridad |
 | :--- | :--- | :--- |
-| **RF-44** | El sistema debe incluir una sección de ayuda con guías breves y videos cortos de uso[cite: 1]. | Media
+| **RF-44** | El sistema debe incluir una sección de ayuda con guías breves y videos cortos de uso[cite: 1]. | Media[cite: 1] |
+| **RF-45** | El sistema debe ofrecer un formulario o enlace directo (por ejemplo, WhatsApp) para solicitar soporte técnico[cite: 1]. | Media[cite: 1] |
+| **RF-46** | El sistema debe incluir un recorrido guiado inicial para nuevos usuarios[cite: 1]. | Baja[cite: 1] |
+
+### 3.7 Administración de la plataforma (equipo Licores Connect)
+
+| ID | Requisito | Prioridad |
+| :--- | :--- | :--- |
+| **RF-47** | El equipo de soporte debe poder consultar la lista de negocios suscritos, su plan y su estado[cite: 1]. | Media[cite: 1] |
+| **RF-48** | El sistema debe permitir recibir sugerencias de los clientes para alimentar las actualizaciones continuas[cite: 1]. | Baja[cite: 1] |
+
+---
+
+## 4. Requisitos no funcionales
+
+### 4.1 Usabilidad
+
+| ID | Requisito |
+| :--- | :--- |
+| **RNF-01** | La interfaz debe ser intuitiva: un usuario sin conocimientos técnicos debe poder registrar su primera venta en menos de 5 minutos tras una breve inducción[cite: 1]. |
+| **RNF-02** | El registro de una venta típica (hasta 5 productos) debe completarse en un máximo de 6 clics o toques[cite: 1]. |
+| **RNF-03** | La interfaz debe ser responsiva y utilizable en celular, tableta y computador[cite: 1]. |
+| **RNF-04** | El sistema debe estar en español de Colombia, con formatos de moneda (COP) y fecha locales[cite: 1]. |
+| **RNF-05** | Los mensajes de error deben ser claros y orientar al usuario sobre cómo corregirlos[cite: 1]. |
+
+### 4.2 Rendimiento
+
+| ID | Requisito |
+| :--- | :--- |
+| **RNF-06** | Las pantallas principales deben cargar en menos de 3 segundos con conexión de 5 Mbps[cite: 1]. |
+| **RNF-07** | El registro de una venta y la actualización del stock deben ejecutarse en menos de 2 segundos[cite: 1]. |
+| **RNF-08** | Los reportes estándar deben generarse en menos de 5 segundos para hasta 50.000 registros[cite: 1]. |
+| **RNF-09** | El sistema debe soportar al menos 100 negocios activos y 300 usuarios concurrentes en la versión 1.0[cite: 1]. |
+
+### 4.3 Seguridad
+
+| ID | Requisito |
+| :--- | :--- |
+| **RNF-10** | Todas las comunicaciones deben realizarse por HTTPS (TLS 1.2 o superior)[cite: 1]. |
+| **RNF-11** | Las contraseñas deben almacenarse con hash seguro (bcrypt o Argon2); nunca en texto plano[cite: 1]. |
+| **RNF-12** | Los datos de cada negocio deben estar aislados: ningún usuario puede ver información de otro negocio[cite: 1]. |
+| **RNF-13** | El sistema debe aplicar control de acceso por rol en cada operación del servidor, no solo en la interfaz[cite: 1]. |
+| **RNF-14** | El sistema no debe almacenar datos de tarjetas; el cobro se delega a la pasarela de pagos[cite: 1]. |
+| **RNF-15** | La sesión debe expirar tras un periodo de inactividad configurable, y las cuentas deben bloquearse temporalmente tras varios intentos de acceso fallidos[cite: 1]. |
+| **RNF-16** | El tratamiento de datos personales debe cumplir la Ley 1581 de 2012, incluyendo política de privacidad y autorización del titular[cite: 1]. |
+
+### 4.4 Disponibilidad y confiabilidad
+
+| ID | Requisito |
+| :--- | :--- |
+| **RNF-17** | El sistema debe tener una disponibilidad objetivo del 99 % mensual, excluyendo mantenimientos programados[cite: 1]. |
+| **RNF-18** | Deben realizarse copias de seguridad automáticas diarias, con retención mínima de 30 días[cite: 1]. |
+| **RNF-19** | Ante una falla, el sistema debe poder restaurarse a partir de la última copia en menos de 4 horas[cite: 1]. |
+| **RNF-20** | Las operaciones de venta e inventario deben ser transaccionales: o se registran completas o no se registran, evitando descuadres de stock[cite: 1]. |
+
+### 4.5 Mantenibilidad y escalabilidad
+
+| ID | Requisito |
+| :--- | :--- |
+| **RNF-21** | El código debe estar organizado por módulos (ventas, inventario, reportes, usuarios, suscripción) y versionado en un repositorio Git[cite: 1]. |
+| **RNF-22** | El sistema debe documentarse (API, base de datos y manual de usuario) para facilitar su mantenimiento[cite: 1]. |
+| **RNF-23** | La arquitectura debe permitir aumentar la capacidad del hosting sin rediseñar la aplicación[cite: 1]. |
+| **RNF-24** | Deben existir pruebas automatizadas para las reglas críticas (cálculo de totales, descuento de stock, cuadre de caja)[cite: 1]. |
+
+### 4.6 Compatibilidad y portabilidad
+
+| ID | Requisito |
+| :--- | :--- |
+| **RNF-25** | El sistema debe funcionar en las dos últimas versiones de Chrome, Edge, Firefox y Safari[cite: 1]. |
+| **RNF-26** | El cliente no debe necesitar instalar software; basta un navegador y conexión a internet[cite: 1]. |
+| **RNF-27** | Los clientes deben poder exportar sus datos (ventas, inventario) en formatos estándar (CSV/Excel)[cite: 1]. |
+
+---
+
+## 5. Requisitos de interfaces externas
+
+### 5.1 Interfaces de usuario
+* Diseño limpio, con botones grandes y flujos cortos pensados para el mostrador del negocio[cite: 1].
+* Pantallas principales: inicio/panel, nueva venta, inventario, caja, reportes, usuarios, suscripción y ayuda[cite: 1].
+* Uso de colores y alertas visuales para stock bajo y diferencias de caja[cite: 1].
+
+### 5.2 Interfaces de hardware
+* Compatibilidad opcional con impresoras de tickets (térmicas) mediante impresión desde el navegador[cite: 1].
+* Compatibilidad opcional con lectores de código de barras que funcionen como teclado[cite: 1].
+
+### 5.3 Interfaces de software
+
+| Sistema externo | Propósito |
+| :--- | :--- |
+| **Pasarela de pagos (PSE, tarjetas)** | Cobro de suscripciones[cite: 1] |
+| **Servicio de correo electrónico** | Notificaciones, recuperación de contraseña y recibos[cite: 1] |
+| **Servicio de hosting en la nube** | Alojamiento de la aplicación y la base de datos[cite: 1] |
+| **Nequi / Daviplata** | Recaudo por transferencia digital con confirmación manual o asistida[cite: 1] |
+
+### 5.4 Interfaces de comunicación
+* Protocolo HTTPS para toda la comunicación cliente-servidor[cite: 1].
+* API interna tipo REST con intercambio de datos en formato JSON[cite: 1].
+
+---
+
+## 6. Criterios de aceptación y validación
+
+| Criterio | Verificación |
+| :--- | :--- |
+| Un negocio puede registrarse, cargar productos y vender el mismo día[cite: 1] | Prueba funcional de extremo a extremo[cite: 1] |
+| El stock se descuenta correctamente en el 100 % de las ventas de prueba[cite: 1] | Pruebas automatizadas y manuales[cite: 1] |
+| El cuadre de caja coincide con el cálculo manual en las pruebas[cite: 1] | Comparación con casos reales del piloto[cite: 1] |
+| Los reportes coinciden con los datos registrados[cite: 1] | Verificación cruzada con datos de ventas[cite: 1] |
+| Un usuario sin experiencia técnica usa el sistema tras una inducción corta[cite: 1] | Pruebas de usabilidad con al menos 3 licorerías piloto[cite: 1] |
+| Los pagos de suscripción se reflejan en el estado de la cuenta[cite: 1] | Pruebas en el entorno de pruebas de la pasarela[cite: 1] |
+| Ningún negocio accede a datos de otro[cite: 1] | Pruebas de seguridad y de roles[cite: 1] |
+
+La validación se realizará mediante pruebas piloto con negocios reales del sector, con ciclos de retroalimentación bajo metodología ágil[cite: 1].
+
+---
+
+## 7. Supuestos, restricciones y riesgos
+
+### 7.1 Supuestos adicionales (por confirmar con el equipo)
+* Se asume que las ventas se registran con impuestos básicos configurables (por ejemplo, IVA o impoconsumo) y que la facturación electrónica ante la DIAN queda para una versión posterior o mediante integración con un proveedor tecnológico[cite: 1].
+* Se asume que los precios y planes definitivos se fijarán tras validar la disposición de pago con los negocios piloto[cite: 1].
+* Las cifras de rendimiento y disponibilidad de la sección 4 son metas iniciales y deberán ajustarse a las capacidades del hosting contratado[cite: 1].
+
+### 7.2 Riesgos
+
+| Riesgo | Impacto | Mitigación |
+| :--- | :--- | :--- |
+| Poca experiencia del equipo en pagos y seguridad[cite: 1] | Alto[cite: 1] | Delegar el cobro a la pasarela; revisiones de código entre pares[cite: 1] |
+| Resistencia de los tenderos a dejar libretas y Excel[cite: 1] | Medio[cite: 1] | Demos gratuitas, importación desde Excel y soporte cercano[cite: 1] |
+| Conexión a internet inestable en negocios pequeños[cite: 1] | Medio[cite: 1] | Interfaz ligera; evaluar modo sin conexión en versiones futuras[cite: 1] |
+| Tiempo limitado del equipo (5 estudiantes)[cite: 1] | Alto[cite: 1] | Priorizar requisitos de prioridad Alta y entregar en ciclos cortos[cite: 1] |
+| Cambios normativos sobre venta de licores o facturación[cite: 1] | Medio[cite: 1] | Diseño modular y revisión periódica de la normativa[cite: 1] |
+| Pérdida de datos[cite: 1] | Alto[cite: 1] | Copias de seguridad diarias y pruebas de restauración[cite: 1] |
+
+### 7.3 Posibles mejoras futuras
+* Facturación electrónica integrada con la DIAN[cite: 1].
+* Modo sin conexión con sincronización posterior[cite: 1].
+* Aplicación móvil nativa[cite: 1].
+* Alertas de reposición y sugerencias de pedido a proveedores[cite: 1].
+* Módulo de domicilios y catálogo en línea[cite: 1].
+
+---
+
+## 8. Matriz de trazabilidad (resumen)
+
+| Necesidad del proyecto | Requisitos relacionados |
+| :--- | :--- |
+| Registro rápido de ventas[cite: 1] | RF-17 a RF-21, RNF-01, RNF-02, RNF-07[cite: 1] |
+| Control automático de stock[cite: 1] | RF-07 a RF-12, RNF-20[cite: 1] |
+| Reducción de errores en facturación y cuadre de caja[cite: 1] | RF-21 a RF-24, RNF-20, RNF-24[cite: 1] |
+| Reportes financieros en tiempo real[cite: 1] | RF-29 a RF-36, RNF-08[cite: 1] |
+| Fácil de usar, sin conocimientos técnicos[cite: 1] | RF-44 a RF-46, RNF-01 a RNF-05[cite: 1] |
+| Bajo costo y accesible desde cualquier dispositivo[cite: 1] | RF-37 a RF-39, RNF-03, RNF-23, RNF-26[cite: 1] |
+| Suscripción SaaS y medios de pago[cite: 1] | RF-37 a RF-43, RNF-14[cite: 1] |
+| Soporte cercano y actualizaciones continuas[cite: 1] | RF-42, RF-44, RF-45, RF-47, RF-48[cite: 1] |
